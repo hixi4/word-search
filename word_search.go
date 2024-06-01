@@ -44,7 +44,7 @@ func searchText(lines []string) {
 		panic(err)
 	}
 
-	query = strings.TrimSpace(query) // Убираем символ новой строки и пробелы
+	query = strings.TrimSpace(query) // Прибераємо символ нової строки та пробіл
 
 	results := findLines(lines, query)
 	if len(results) == 0 {
