@@ -58,7 +58,7 @@ func searchText(lines []string) {
 }
 
 func main() {
-	filename := "text.txt" // Замініть "your_file.txt" на ім'я вашого файлу
+	filename := "text.txt" 
 	lines := readFile(filename)
 	searchText(lines)
 }
